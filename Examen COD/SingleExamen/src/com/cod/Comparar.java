@@ -1,5 +1,5 @@
 package com.cod;
-
+/*Cambie los nombres para que los atributos se adecuen al programa ejemplo email, ip...*/
 public class Comparar {
 
     String email = "";
@@ -11,6 +11,8 @@ public class Comparar {
     public static void setInstance(Comparar instance) {
         Comparar.instance = instance;
     }
+
+    //Resto de elementos
     Comparar() {
         email = "anonymous@danielcastelao.org";
     }
